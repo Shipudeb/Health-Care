@@ -1,0 +1,64 @@
+/* common css and reset code */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+.hr-style{
+    border: 2px solid black;
+    width: 100px;
+    margin: 0 auto;
+    opacity: 1;
+
+}
+
+.hr-style1{
+    border: 2px solid black;
+    width: 100px;
+    opacity: 1;
+}
+
+/* #hero-section{
+   background-image: url(element (2).png) ;
+    background-repeat: no-repeat;
+} */
+
+.service-img{
+    width: 100px;
+    object-fit: contain;
+    height: 30%;
+}
+.card{
+    border: none;
+
+}
+.service-card{
+    box-shadow: 10px 10px 20px rgba(128, 128, 128, 0.113),-5px -5px 10px rgba(128, 128, 128, 0.524);
+}
+
+.card-footer{
+    border: none;
+    background-color: transparent;
+}
+
+
+footer ul{
+    padding: 0;
+
+}
+footer ul li{
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+footer ul li a{
+    text-decoration: none;
+    color: rgba(10, 10, 72, 0.379) ;
+}
+
+footer h2{
+    font-weight: bold;
+}
